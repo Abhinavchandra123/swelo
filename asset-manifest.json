@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/swelo/static/css/main.30ca9934.css",
-    "main.js": "/swelo/static/js/main.394a3d0a.js",
+    "main.js": "/swelo/static/js/main.0d4efc5d.js",
     "static/js/787.f2eec070.chunk.js": "/swelo/static/js/787.f2eec070.chunk.js",
     "static/media/prod4.jpg": "/swelo/static/media/prod4.3928d586fcdb73d176eb.jpg",
     "static/media/prod6.jpg": "/swelo/static/media/prod6.d68c1fd9e9b77bc4e710.jpg",
@@ -18,11 +18,11 @@
     "static/media/fb.svg": "/swelo/static/media/fb.1a7f14a857083ba76bb2b48118b34f9d.svg",
     "index.html": "/swelo/index.html",
     "main.30ca9934.css.map": "/swelo/static/css/main.30ca9934.css.map",
-    "main.394a3d0a.js.map": "/swelo/static/js/main.394a3d0a.js.map",
+    "main.0d4efc5d.js.map": "/swelo/static/js/main.0d4efc5d.js.map",
     "787.f2eec070.chunk.js.map": "/swelo/static/js/787.f2eec070.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30ca9934.css",
-    "static/js/main.394a3d0a.js"
+    "static/js/main.0d4efc5d.js"
   ]
 }
