@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/myapp/src/components/Images/logo/favicon.svg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>SEWELO PARIS</title>
+  </head>
+  <body>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TimelineLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js"></script>
+    <section class="animation">
+      <img class="paper-plane" src="./paper.png" alt="">
+    </section> -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!-- <script>
+      const flightPath = {
+        curviness: 1.25,
+        autoRotate:true,
+        values:[
+          {x: 100, y: -20},
+          {x: 300, y: 10},
+          {x: 500, y: 100},
+          {x: 750, y: -100},
+          {x: 350, y: -50},
+          {x: 600, y: 100},
+          {x: 800, y: 0},
+          {x:window.innerWidth,y:-250}
+        ]
+      };
+      
+      const tween = new TimelineLite();
+      tween.add(
+        TweenLite.to(".paper-plane",6, {
+        bezier: flightPath,
+        ease:Power1.easeInOut
+        })
+      );
+
+      const controller = new ScrollMagic.Controller();
+
+      const scene = new ScrollMagic.Scene({
+        triggerElement:".animation",
+        duration:500,
+        triggerHook:'onLeave'
+      })
+      .setTween(tween)
+      .addIndicators()
+      .setPin('.animation')
+      .addTo(controller);
+  </script>
+  <div class="line-container">
+    <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" preserveAspectRatio="xMidMax meet">
+      <title>New Project</title>
+      <defs>
+        <image  width="1119" height="309" id="img1" href="data:image/png;base64,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"/>
+      </defs>
+      <style>
+      </style>
+      <use id="Background" href="#img1" x="115" y="240"/>
+    </svg>
+  </div> -->
+  <!-- <footer>
+    <h1>hiiiii</h1>
+  </footer> -->
+ 
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>
